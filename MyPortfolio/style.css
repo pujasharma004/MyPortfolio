@@ -1,0 +1,237 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    background-color: #000113;
+}
+.nav{
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:45px;
+    margin-left: 160px;
+    width: 50%; 
+    height: 40px;
+    opacity: 0.7;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px ;
+    background-color: rgb(60, 59, 59);  
+    border-radius: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: aliceblue;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+.logo{
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    font-weight: 500;
+    font-size: 2.5rem;
+    height: 50px;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.logo span{
+    color: aqua;
+    text-shadow: 0 0 10px;
+   
+}
+.herosec{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    
+}
+.back{
+    width: 400px;
+    height: 550px;
+    border-radius: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 40px;
+    
+
+    
+}
+img {
+  -webkit-mask-image: 
+    linear-gradient(to right, 
+      transparent 0%, 
+      #000113 20%, 
+      #000113 80%, 
+      transparent 100%),
+    linear-gradient(to bottom, 
+      transparent 0%, 
+      #000113 20%, 
+      #000113 80%, 
+      transparent 100%);
+
+  -webkit-mask-composite: destination-in;
+
+  mask-image: 
+    linear-gradient(to right, 
+      transparent 0%, 
+      #000113 30%, 
+      #000113 90%, 
+      transparent 100%),
+    linear-gradient(to bottom, 
+      transparent 0%, 
+      #000113 30%, 
+      #000113 90%, 
+      transparent 100%);
+ filter: drop-shadow(0 4px 10px rgba(3, 231, 208, 0.8));
+margin-bottom: 85px;
+ 
+height: 370px;
+
+
+}
+
+.intro{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40px;
+     
+} 
+.intro1{
+
+    margin-left: 20px;
+}
+.intro2{
+    width: 85%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: aliceblue;
+}
+.about {
+    font-size: 40px;
+}
+.sociallinks{
+    height: 40px;
+    width: 300px;
+    margin-bottom: 30px;
+    margin-left: 20px; 
+}
+
+.icon{
+    width:30px;
+    height:30px;
+    margin-right:30px ;
+    border-radius: 360px;
+}
+.icon:hover{
+    filter: drop-shadow(0 4px 10px rgba(3, 231, 208, 0.9));  
+}
+button  {
+    width: 140px;
+    height: 55px;
+    border-radius: 50px;
+    background-color:rgb(5, 201, 235);
+    color: #02021f;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 30px;
+}
+button:hover{
+    filter: drop-shadow(0 4px 10px rgba(151, 234, 234, 0.9));
+    background-color:  rgb(154, 221, 233); 
+}
+.sectiondiv{
+    width: 100%;
+    height: 100%;
+    background-color: #000113;
+    
+}
+#aboutmelink{
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.aboutmetext{
+    width: 80%;
+    height:auto;
+    color: antiquewhite;
+    text-align: center;
+}
+#skillslink{
+    width: 100%;
+    height: auto;
+}
+.skills{
+    background-color: aliceblue;
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    overflow-x: auto;
+}
+.skills::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    height: 4em;
+    flex: 0 0 4rem;
+    background-size: cover;
+    
+}
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    animation: scroll 9s infinite linear;
+    
+}
+.sklcd{
+    height: 4rem;
+    flex: 0 0 4rem;
+
+}
+@keyframes scroll{
+    from {translate: 0;}
+    to {translate:-100%;}
+}
+#projectslink{
+    width: 100%;
+    height: 50%;
+     }
+#achievementslink{
+    width: 100%;
+    height: 50%;
+    }
+#contactlink{
+    width: 100%;
+    height: 50%;
+ }
+
+#introtext{
+    color: rgb(16, 251, 247);
+    text-shadow: 0 0 20px;
+}
+
+
+
+ 
